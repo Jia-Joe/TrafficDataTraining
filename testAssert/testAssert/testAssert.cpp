@@ -12,7 +12,7 @@ int x[N] = {7,3,1,6,2,44,0,5,12,9};
 
 
 
-
+ 
 void main()
 {
 	int a,i,*b;
@@ -25,8 +25,9 @@ void main()
 		mystack.pop();
 		cout<<a<<endl;
 	}
-	assert(a==1); 
+	assert(a==0); //If expression is true ,continue.
 	cout<<"haha"<<endl;
 	system("pause");
 
+	
 }
