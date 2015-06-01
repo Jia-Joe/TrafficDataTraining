@@ -11,7 +11,7 @@ class Compare
  {
      public:
          static bool IsEqual(const T lh,const T rh)
-          {
+          {	
               return lh!=rh;
           }
  };
