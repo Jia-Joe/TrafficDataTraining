@@ -26,7 +26,7 @@ void assert_report( const char * file_name, const char * function_name, unsigned
 {
 	 printf( "\n[EXAM]Error Report file_name: %s, function_name: %s, line %u\n", 
 			 file_name, function_name, line_no );
-//	 abort();
+	 abort();
 }
 	 #define  ASSERT_REPORT(expr)       \
 		 do{       \
