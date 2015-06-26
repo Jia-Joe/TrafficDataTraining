@@ -10,6 +10,15 @@
 #include <stdio.h>
 #include <tchar.h>
 #include <iostream>
+#include <iomanip>
+#include <stdio.h>  
+#include <stdlib.h>  
+#include <string.h> 
 
+#include <new>  
+#include <cstdio>  
+#include <cstdlib> 
+
+#include <malloc.h>
 
 // TODO: 在此处引用程序需要的其他头文件
