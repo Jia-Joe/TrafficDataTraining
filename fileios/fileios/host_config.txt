@@ -1,5 +1,5 @@
 host =SIO
 user =EOJ
-pass = 000000
+pass =000000
 dbname =bs
 port 12

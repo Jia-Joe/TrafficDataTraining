@@ -3,9 +3,11 @@
 #include<fstream>
 #include<string>
 #include<assert.h>
+
 using namespace std;
 
-string src="D:/MY PJ/DebuggingLevel/fileios/host_config.txt";
+string src="D:\\MY PJ\\DebuggingLevel\\fileios\\fileios\\host_config.txt";
+
 
 int read_mysql_xml(string &host,string &user,string &pass, string &dbname,int &port)
 {
@@ -15,7 +17,8 @@ int read_mysql_xml(string &host,string &user,string &pass, string &dbname,int &p
     map<string ,string> infile;
     
     readfile.open(src.c_str(),ios::in);
-    
+//  readfile.open("host_config.txt",ios::in); 
+
     if(!readfile)
     {
         return 1; /*没有打开该文件*/
