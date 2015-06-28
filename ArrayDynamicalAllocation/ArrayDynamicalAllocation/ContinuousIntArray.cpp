@@ -28,7 +28,7 @@ void free2DArray(void **arr)
 }
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int _tmain1(int argc, _TCHAR* argv[])
 {
 	int row,col;
 	scanf("%d%d",&row,&col);
