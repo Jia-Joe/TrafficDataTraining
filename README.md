@@ -1,6 +1,6 @@
-# DebuggingLevel
+# DesignLevel
 
 Learn the science of programming and debugging!
 
 
-Level2
+Level1
