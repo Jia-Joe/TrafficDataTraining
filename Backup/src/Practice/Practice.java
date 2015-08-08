@@ -7,6 +7,7 @@ public class Practice {
 		System.out.println("Hello World");
 		System.out.println("Test Push");
 		System.out.println("Test Push1");
+		System.out.println("Test Push2");
 	}
 
 }
