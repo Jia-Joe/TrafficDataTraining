@@ -1,10 +1,9 @@
 package interfaces.filters;
 
 public class Waveform {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	private static long counter;
+	private final long id=counter++;
+	public String toString()
+	{return "Waveform"+id;}
 }
+
