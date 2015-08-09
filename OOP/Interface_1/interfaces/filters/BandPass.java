@@ -1,6 +1,6 @@
 package interfaces.filters;
 
-public class BandPass {
+public class BandPass extends Filter{
 	double lowCutoff,highCutoff;
 
 	public BandPass(double lowCutoff, double highCutoff) {

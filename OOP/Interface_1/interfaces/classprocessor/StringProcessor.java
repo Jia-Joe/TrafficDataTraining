@@ -1,7 +1,7 @@
 package interfaces.classprocessor;
 import java.util.*;
 
-public abstract class StringProcessor {
+public abstract class StringProcessor implements Processor{
 
 	public String name() {
 		return getClass().getSimpleName();
@@ -18,17 +18,17 @@ public abstract class StringProcessor {
 
 }
 
-class Upcase extends StringProcessor implements Processor{
+class Upcase extends StringProcessor {
 	public String process(Object input) {
 		return ((String)input).toUpperCase();
 	}
 }
-class Downcase extends StringProcessor implements Processor{
+class Downcase extends StringProcessor {
 	public String process(Object input) {
 		return ((String)input).toLowerCase();
 	}
 }
-class Splitter extends StringProcessor implements Processor{
+class Splitter extends StringProcessor {
 	public String process(Object input) {
 		return Arrays.toString(((String)input).split(" "));
 	}
