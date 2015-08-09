@@ -1,4 +1,4 @@
-package Interface_1.interfaces;
+package interfaces.classprocessor;
 import java.util.*;
 
 class Processor {
