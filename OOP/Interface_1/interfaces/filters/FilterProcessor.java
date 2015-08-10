@@ -2,7 +2,7 @@ package interfaces.filters;
 
 import interfaces.classprocessor.Apply;
 import interfaces.classprocessor.Processor;
-
+//适配器
 class FilterAdapter implements Processor  {
 	Filter filter;//用作代理
 	public FilterAdapter(Filter filter) {
