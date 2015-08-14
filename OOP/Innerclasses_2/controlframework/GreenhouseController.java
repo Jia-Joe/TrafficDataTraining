@@ -5,7 +5,7 @@ public class GreenhouseController {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		GreenhouseControls gc=new GreenhouseControls();
-		gc.addEvent(gc.new Bell(3));
+		//gc.addEvent(gc.new Bell(300));
 		Event[] eventList= {
 				gc.new ThermostatNight(0),
 				gc.new LightOn(200),
@@ -17,6 +17,8 @@ public class GreenhouseController {
 		gc.addEvent(gc.new Restart(2000, eventList));
 //		if(args.length==1)
 //			gc.addEvent(new GreenhouseControls.Terminate(new Integer(args[0])));
+//		gc.addEvent(new GreenhouseControls.Terminate(200));
+		gc.addEvent(gc.new Bell(200));
 		gc.addEvent(new GreenhouseControls.Terminate(200));
 		gc.run();
 	}
