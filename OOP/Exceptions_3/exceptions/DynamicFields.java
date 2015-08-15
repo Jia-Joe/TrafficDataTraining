@@ -1,7 +1,6 @@
 package exceptions;
 
-import java.nio.file.NoSuchFileException;
-
+@SuppressWarnings("serial")
 class DynamicFieldsException extends Exception{}
 
 public class DynamicFields {
