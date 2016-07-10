@@ -2,6 +2,8 @@
 *.apk
 *.ap_
 *.csv
+*.mat
+
 # files for the dex VM
 *.dex
 
