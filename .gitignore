@@ -3,6 +3,7 @@
 *.ap_
 *.csv
 *.mat
+*.pyc
 
 # files for the dex VM
 *.dex

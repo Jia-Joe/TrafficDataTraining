@@ -14,6 +14,7 @@ import get_order_num as gon
 
 import os
 os.chdir('f:/di____di/season_1/training_data/')
+os.chdir('C:/Users/Administrator/Desktop')
 '''
 
 import os
